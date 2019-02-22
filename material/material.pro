@@ -7,6 +7,7 @@ SUBDIRS += \
     sidepanel \
     swipetoremove \
     wearable \
+    vms \
     imagine/automotive \
     imagine/musicplayer
     wearable

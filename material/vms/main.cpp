@@ -53,8 +53,12 @@
 #include <QSettings>
 #include <QIcon>
 
+#include "qcvdetectfilter.h"
+
 int main(int argc, char *argv[])
 {
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+
     QGuiApplication::setApplicationName("VMS");
     QGuiApplication::setOrganizationName("VMS");
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -63,6 +67,9 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QIcon::setThemeName("vms");
+    
+    qmlRegisterType<QCvDetectFilter>("com.amin.classes", 1, 0, "CvDetectFilter");
+    qRegisterMetaType<QList<QRect>>("QList<QRect>");
 
     QQmlApplicationEngine engine;
     engine.load(QUrl("qrc:/vms.qml"));

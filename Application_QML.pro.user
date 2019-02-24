@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.8.1, 2019-02-24T23:13:53. -->
+<!-- Written by QtCreator 4.8.1, 2019-02-24T23:42:26. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -72,9 +72,9 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.qt5.5121.clang_64_kit</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">14</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/tmp/qt5.12</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -312,7 +312,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/chattutorial/chapter1-settingup/chapter1-settingup.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/chattutorial/chapter1-settingup/chapter1-settingup.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -370,7 +370,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/chattutorial/chapter2-lists/chapter2-lists.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/chattutorial/chapter2-lists/chapter2-lists.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.10">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -428,7 +428,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/sidepanel/sidepanel.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/sidepanel/sidepanel.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.11">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -486,7 +486,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/swipetoremove/swipetoremove.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/swipetoremove/swipetoremove.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.12">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -544,7 +544,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/texteditor/texteditor.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/texteditor/texteditor.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.13">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -602,7 +602,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/wearable/wearable.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/wearable/wearable.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.14">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -660,7 +660,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/vms/vms.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/vms/vms.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -718,7 +718,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/chattutorial/chapter3-navigation/chapter3-navigation.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/chattutorial/chapter3-navigation/chapter3-navigation.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -776,7 +776,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/chattutorial/chapter4-models/chapter4-models.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/chattutorial/chapter4-models/chapter4-models.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -834,7 +834,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/chattutorial/chapter5-styling/chapter5-styling.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/chattutorial/chapter5-styling/chapter5-styling.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -892,7 +892,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/contactlist/contactlist.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/contactlist/contactlist.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -950,7 +950,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/flatstyle/flatstyle.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/flatstyle/flatstyle.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.7">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -1008,7 +1008,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/gallery/gallery.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/gallery/gallery.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.8">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -1066,7 +1066,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/imagine/automotive/automotive.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/imagine/automotive/automotive.app/Contents/MacOS</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.9">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -1124,7 +1124,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/thanhtu/MyProjects/CPlusplus/Qt5-C-GUI-Programming-Cookbook/Chapter 2/build-Animation_QML-Desktop_Qt_5_12_1_clang_64bit-Debug/material/imagine/musicplayer/musicplayer.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/qt5.12/material/imagine/musicplayer/musicplayer.app/Contents/MacOS</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">15</value>
   </valuemap>

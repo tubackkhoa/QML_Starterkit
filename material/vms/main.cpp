@@ -59,6 +59,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
+
     QGuiApplication::setApplicationName("VMS");
     QGuiApplication::setOrganizationName("VMS");
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -72,7 +73,7 @@ int main(int argc, char *argv[])
     qRegisterMetaType<QList<QRect>>("QList<QRect>");
 
     QQmlApplicationEngine engine;
-    engine.load(QUrl("qrc:/vms.qml"));
+    engine.load(QUrl("qrc:/qml/vms.qml"));
     if (engine.rootObjects().isEmpty())
         return -1;
 

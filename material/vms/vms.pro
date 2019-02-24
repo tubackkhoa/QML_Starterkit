@@ -22,20 +22,20 @@ LIBS += -L/usr/local/lib \
      -lopencv_highgui \
      -lopencv_objdetect
 
+#OTHER_FILES += \
+#    qml/*.qml
+
 RESOURCES += \
+    vms.qrc
+
+RESOURCES += \
+    vms.qrc \
     icons/icons.qrc \
-    images/album-cover.jpg \
-    images/smile.png \
-    imagine-assets/imagine-assets.qrc \
-    qtquickcontrols2.conf \
-    vms.qml \
-    CVDetector.qml \
-    faceclassifier.xml
+    imagine-assets/imagine-assets.qrc
 
 target.path = $$[QT_INSTALL_EXAMPLES]/material/vms
 INSTALLS += target
 
-DISTFILES += \
-    CVDetector.qml \
-    vms.qml
+
+
 

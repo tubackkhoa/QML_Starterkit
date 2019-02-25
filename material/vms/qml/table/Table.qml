@@ -157,23 +157,23 @@ ListView {
     ScrollBar.vertical: ScrollBar {
         policy: r.height < r.contentHeight ? ScrollBar.AlwaysOn : ScrollBar.AlwaysOff
     }
-    MouseArea {
-        z: -1
-        anchors.fill: parent
-        propagateComposedEvents: true
-        onWheel: {
-            if (wheel.angleDelta.y > 0) {
-                if (r.currentIndex > 0) {
-                    r.currentIndex -= 1
-                }
-            }
-            else {
-                if (r.currentIndex < r.count - 1) {
-                    r.currentIndex += 1
-                }
-            }
-        }
-    }
+//    MouseArea {
+//        z: -1
+//        anchors.fill: parent
+//        propagateComposedEvents: true
+//        onWheel: {
+//            if (wheel.angleDelta.y > 0) {
+//                if (r.currentIndex > 0) {
+//                    r.currentIndex -= 1
+//                }
+//            }
+//            else {
+//                if (r.currentIndex < r.count - 1) {
+//                    r.currentIndex += 1
+//                }
+//            }
+//        }
+//    }
     Keys.onDownPressed: {
         if (r.currentIndex < r.count - 1)
             r.currentIndex++
@@ -185,7 +185,7 @@ ListView {
     function calcContentWidth() {
         var totalWidth = r.checkable ? r.checkableWidth : 0
         for (var i = 0; i < columns.length; i++) {
-            totalWidth += columns[i].width + 1
+            totalWidth += columns[i].width + r.dividerWidth
         }
         r.contentWidth = totalWidth
     }

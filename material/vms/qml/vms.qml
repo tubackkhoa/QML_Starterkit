@@ -5,7 +5,7 @@ import QtQuick.Controls.Material 2.3
 import QtQuick.Window 2.0
 import QtQuick.Dialogs 1.2
 import QtMultimedia 5.12
-import com.amin.classes 1.0
+//import com.amin.classes 1.0
 import "table"
 import QtGraphicalEffects 1.0
 
@@ -98,14 +98,16 @@ ApplicationWindow {
 
 
     Table {
-//        checkable: true
-        anchors.fill: parent
+        //        checkable: true
+        height: 400
+        width: 1070
+        anchors { top:parent.top; left: parent.left}
         dividerColor: "#202f3f"
         dividerWidth: 2
         headerColor: "#284860"
         rowColor:"#202f3f"
         rowAlternateColor: "#202f3f"
-        currentColor: "transparent"
+        currentColor: "green"
         hoveredColor: "blue"
         columns: [
             TableColumn {
@@ -123,19 +125,18 @@ ApplicationWindow {
                 }
                 content:TableColumnContent {
                     horizontalAlignment: Text.AlignHCenter
-
                     Image {
                         anchors { horizontalCenter: parent.horizontalCenter}
-                           fillMode: Image.PreserveAspectFit
-                           source: "qrc:/icons/vms/32x32/"+model.icon+".png"
-                           sourceSize.width: 10
-                           sourceSize.height: 10
-                           ColorOverlay {
-                                   anchors.fill: parent
-                                   source: parent
-                                   color: model.level
-                               }
+                        fillMode: Image.PreserveAspectFit
+                        source: model ? "qrc:/icons/vms/32x32/"+model.icon+".png" : ""
+                        sourceSize.width: 10
+                        sourceSize.height: 10
+                        ColorOverlay {
+                            anchors.fill: parent
+                            source: parent
+                            color: model ? model.level : "transparent"
                         }
+                    }
 
                 }
             },
@@ -155,7 +156,7 @@ ApplicationWindow {
                         radius: 4
                         border.color: "transparent"
                         border.width: 0
-                        color: model.level
+                        color: model ? model.level : "transparent"
                     }
                 }
             },
@@ -167,7 +168,7 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.time
+                    text: model ? model.time : ""
                 }
             },
             TableColumn {
@@ -178,7 +179,7 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.camera
+                    text: model ? model.camera : ""
                 }
             },
             TableColumn {
@@ -189,7 +190,7 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.detail
+                    text: model ? model.detail : ""
                 }
             },
             TableColumn {
@@ -200,7 +201,7 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.person
+                    text: model ? model.person : ""
                 }
             },
             TableColumn {
@@ -211,7 +212,7 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.status
+                    text: model ? model.status : ""
                 }
             },
             TableColumn {
@@ -222,171 +223,31 @@ ApplicationWindow {
                 }
                 content: TableColumnContent {
                     horizontalAlignment: Text.AlignLeft
-                    text: model.updateTime
+                    text: model ? model.updateTime : ""
                 }
             }
 
         ]
         model: ListModel {
-            ListElement {
-                icon: "power"
-                level: "red"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "cart"
-                level: "green"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "settings"
-                level: "#ffce00"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "music"
-                level: "#ff5554"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "power"
-                level: "red"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "cart"
-                level: "green"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "settings"
-                level: "#ffce00"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "music"
-                level: "#ff5554"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "power"
-                level: "red"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "cart"
-                level: "green"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "settings"
-                level: "#ffce00"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "music"
-                level: "#ff5554"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "power"
-                level: "red"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "cart"
-                level: "green"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "settings"
-                level: "#ffce00"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
-            }
-            ListElement {
-                icon: "music"
-                level: "#ff5554"
-                time: "20/12/2018 10:12"
-                camera: "X03-khu B"
-                detail: "Giấy phép trong danh sách"
-                person: "Nguyễn Hoàng An"
-                status: "Được xác định"
-                updateTime: "20/12/2018 10:12"
+            id: jsonModel
+        }
+        Component.onCompleted: {
+            var icons = ["power","cart","settings","music"];
+            var colors = ["red","green", "#ffce00", "#ff5554"];
+
+            for(var i=0;i<40;i++){
+                var index = i % 4;
+                var item = {
+                    icon: icons[index],
+                    level: colors[index],
+                    time: "20/12/2018 10:12",
+                    camera: "X03-khu B" + i,
+                    detail: "Giấy phép trong danh sách",
+                    person: "Nguyễn Hoàng An",
+                    status: "Được xác định",
+                    updateTime: "20/12/2018 10:12"
+                };
+                jsonModel.append(item);
             }
         }
 
@@ -395,3 +256,5 @@ ApplicationWindow {
 
 
 }
+
+

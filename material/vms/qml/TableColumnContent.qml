@@ -1,4 +1,4 @@
-import QtQuick 2.9
+import QtQuick 2.12
 import QtQuick.Controls 2.5
 Text {
     anchors.fill: parent
@@ -8,7 +8,6 @@ Text {
     font {
         pixelSize: 10
     }
-
 
     renderType: Text.NativeRendering
 }

@@ -1,6 +1,8 @@
 TEMPLATE = app
 TARGET = vms
 
+#include($$PWD/qsyncable/qsyncable.pri)
+
 QT += quick \
     quickcontrols2 \
     multimedia
@@ -8,13 +10,11 @@ QT += quick \
 CONFIG += c++11
 
 HEADERS += \
-    qcvdetectfilter.h \
-    dataentrymodel.h
+    qcvdetectfilter.h
 
 SOURCES += \
     main.cpp \
-    qcvdetectfilter.cpp \
-    dataentrymodel.cpp
+    qcvdetectfilter.cpp
 
 INCLUDEPATH += /usr/local/include
 LIBS += -L/usr/local/lib \
@@ -24,13 +24,8 @@ LIBS += -L/usr/local/lib \
      -lopencv_highgui \
      -lopencv_objdetect
 
-#OTHER_FILES += \
-#    qml/*.qml
 
-RESOURCES += \
-    vms.qrc
-
-RESOURCES += \
+RESOURCES += \    
     vms.qrc \
     icons/icons.qrc \
     imagine-assets/imagine-assets.qrc

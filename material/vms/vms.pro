@@ -8,11 +8,13 @@ QT += quick \
 CONFIG += c++11
 
 HEADERS += \
-    qcvdetectfilter.h
+    qcvdetectfilter.h \
+    dataentrymodel.h
 
 SOURCES += \
     main.cpp \
-    qcvdetectfilter.cpp
+    qcvdetectfilter.cpp \
+    dataentrymodel.cpp
 
 INCLUDEPATH += /usr/local/include
 LIBS += -L/usr/local/lib \

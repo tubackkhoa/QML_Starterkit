@@ -2,13 +2,18 @@
     <qresource prefix="/">
         <file>qml/vms.qml</file>
         <file>qml/BlueBox.qml</file>
-        <file>qml/Button.qml</file>
         <file>qml/Video.qml</file>
+        <file>qml/table/Table.qml</file>
+        <file>qml/table/TableColumn.qml</file>
+        <file>qml/table/VerticalLineDraggable.qml</file>
         <file>images/album-cover.jpg</file>
         <file>images/smile.png</file>
         <file>qtquickcontrols2.conf</file>
         <file>faceclassifier.xml</file>
         <file>qml/JSConsole.qml</file>
         <file>jsconsole.js</file>
+        <file>qml/TableColumnHeader.qml</file>
+        <file>qml/TableColumnContent.qml</file>
+        <file>qml/TableModel.qml</file>
     </qresource>
 </RCC>

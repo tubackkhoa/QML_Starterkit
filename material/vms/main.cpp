@@ -54,6 +54,7 @@
 #include <QIcon>
 
 #include "qcvdetectfilter.h"
+#include "dataentrymodel.h"
 
 int main(int argc, char *argv[])
 {
@@ -70,7 +71,8 @@ int main(int argc, char *argv[])
     QIcon::setThemeName("vms");
     
     qmlRegisterType<QCvDetectFilter>("com.amin.classes", 1, 0, "CvDetectFilter");
-    qRegisterMetaType<QList<QRect>>("QList<QRect>");
+    qmlRegisterType<DataEntryModel>("com.amin.classes", 1, 0, "TableModel");
+//    qRegisterMetaType<QList<QRect>>("QList<QRect>");
 
     QQmlApplicationEngine engine;
     engine.load(QUrl("qrc:/qml/vms.qml"));
